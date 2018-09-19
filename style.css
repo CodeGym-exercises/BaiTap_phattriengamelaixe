@@ -3,6 +3,10 @@
 	padding: 0;
 }
 
+body{
+	background-image: url("./imgs/Universe planet.jpg");
+}
+
 canvas{
 	background-image: url("./imgs/Universe planet.jpg");
 	background-repeat: no-repeat;
