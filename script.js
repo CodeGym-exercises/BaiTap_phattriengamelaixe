@@ -112,8 +112,16 @@ function gameOver(){
 	if(live==0){
 		alert("GameOver, score: " + score);
 		allScore.push(score);
+		rocket.posX=450;
+		rocket.posY=550;
+		for(let i = 0;i<=3;i++ ){
+			itemArray.pop();
+		}
 		score = 0;
 		live = 10;
+		for(let i = 0; i <3 ; i++){
+			addItem(i,arrayX);
+		}
 	}
 }
 
